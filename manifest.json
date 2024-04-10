@@ -3,17 +3,15 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
       "src": "icon.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "type": "./image/png",
+      "sizes": "48x48"
     }
   ],
   "related_applications": [
+    {
+      "platform": "web"
+    },
     {
       "id": "com.hyxen.app.etmall&hl=zh_TW&gl=US",
       "platform": "play",
@@ -26,7 +24,11 @@
     }
   ],
   "start_url": ".",
+  "scope": ".",
+  "orientation": "portrait-primary",
   "display": "standalone",
+  "dir": "ltr",
+  "lang": "zh-Hant-TW",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
