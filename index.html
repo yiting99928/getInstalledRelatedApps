@@ -5,25 +5,35 @@
     <link rel="icon" href="./favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <meta
-      name="google-play-app"
-      content="app-id=com.hyxen.app.etmall&hl=zh_TW&gl=US"
-    />
+    <meta name="description" content="Web site created using create-react-app"/>
+
+    <!-- for ios https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners -->
+    <meta name="google-play-app" content="app-id=com.hyxen.app.etmall&hl=zh_TW&gl=US"/>
     <meta name="apple-itunes-app" content="app-id=974433138" />
-    <!-- 提供了 app 的相關資訊，並不會自動顯示 Smart Banner -->
+
+    <meta name="smartbanner:title" content="這是ETMall">
+    <meta name="smartbanner:author" content="ETMallㄉ工程師">
+    <meta name="smartbanner:price" content="GET">
+    <meta name="smartbanner:price-suffix-apple" content=" - On the App Store">
+    <meta name="smartbanner:price-suffix-google" content=" - In Google Play">
+    <meta name="smartbanner:icon-apple" content="https://www.etmall.com.tw/Resource/Images/index/img-app-icon.png">
+    <meta name="smartbanner:icon-google" content="https://www.etmall.com.tw/Resource/Images/index/img-app-icon.png">
+    <meta name="smartbanner:button" content="VIEW">
+    <meta name="smartbanner:button-url-apple" content="https://apps.apple.com/tw/app/ehs%E6%9D%B1%E6%A3%AE%E8%B3%BC%E7%89%A9/id974433138">
+    <meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=com.hyxen.app.etmall&hl=zh_TW&gl=US&pli=1">
+    <meta name="smartbanner:enabled-platforms" content="android,ios">
+    <meta name="smartbanner:close-label" content="Close">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="./manifest.json" />
-    <title>React App</title>
+    <link rel="stylesheet" href="/dist/smartbanner.min.css" />
+    <script src="/dist/smartbanner.min.js"></script>
+    <title>smart banner test</title>
   </head>
   <body>
-    <div>test</div>
+    <div>測試 getInstalledRelatedApps👇</div>
     <div id="output"></div>
     <script src="./index.js"></script>
   </body>
