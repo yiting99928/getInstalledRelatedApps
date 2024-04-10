@@ -15,12 +15,12 @@
   ],
   "related_applications": [
     {
-      "id": "play 商店",
+      "id": "com.hyxen.app.etmall&hl=zh_TW&gl=US",
       "platform": "play",
       "url": "https://play.google.com/store/apps/details?id=com.hyxen.app.etmall&hl=zh_TW&gl=US"
     },
     {
-      "id": "itunes",
+      "id": "974433138",
       "platform": "itunes",
       "url": "https://apps.apple.com/tw/app/ehs%E6%9D%B1%E6%A3%AE%E8%B3%BC%E7%89%A9/id974433138"
     }
