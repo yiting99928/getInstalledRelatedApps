@@ -23,3 +23,6 @@ async function checkInstalledRelatedApps() {
 }
 
 checkInstalledRelatedApps();
+
+const userAgent = document.getElementById("userAgent");
+userAgent.innerHTML = navigator.userAgent
