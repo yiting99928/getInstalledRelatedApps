@@ -20,8 +20,8 @@
   <meta name="smartbanner:icon-apple" content="https://www.etmall.com.tw/Resource/Images/index/img-app-icon.png">
   <meta name="smartbanner:icon-google" content="https://www.etmall.com.tw/Resource/Images/index/img-app-icon.png">
   <meta name="smartbanner:button" content="VIEW">
-  <meta name="smartbanner:button-url-apple" content="https://apps.apple.com/tw/app/ehs%E6%9D%B1%E6%A3%AE%E8%B3%BC%E7%89%A9/id974433138">
-  <meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=com.hyxen.app.etmall&hl=zh_TW&gl=US&pli=1">
+  <meta name="smartbanner:button-url-apple" content="etmall://open?pgid=2">
+  <meta name="smartbanner:button-url-google" content="etmall://open?pgid=2">
   <meta name="smartbanner:enabled-platforms" content="android,ios">
   <meta name="smartbanner:close-label" content="Close">
     <!--
@@ -35,8 +35,10 @@
     <title>smart banner test</title>
   </head>
   <body>
-    <div>測試 getInstalledRelatedApps👉<div id="output"></div></div>
-    <div>userAgent👉<div id="userAgent"></div></div>
+    <div>測試 getInstalledRelatedApps👉<span id="output"></span></div>
+    <br/>
+    <div>userAgent👉<span id="userAgent"></span></div>
+    <br/>
     <script src="./index.js"></script>
   </body>
 </html>
