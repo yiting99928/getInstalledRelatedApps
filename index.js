@@ -2,7 +2,7 @@ var url =
   window.location.origin + window.location.pathname + window.location.search;
 var downloadAPP = false;
 // var urlScheme = "etmall://redirect?url=" + encodeURIComponent(url);
-var urlScheme = "etmall://open?pgid=2";
+var urlScheme = "youtube://";
 var iosDownloadUrl =
   "https://itunes.apple.com/tw/app/dong-sen-gou-wu-ehs-nin-sui/id974433138?l=zh&mt=8";
 var androidDownloadUrl =
