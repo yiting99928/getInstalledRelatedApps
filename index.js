@@ -39,6 +39,10 @@ var isAppleDevice = utilityJS.isAppleDevice();
 var appStoreUrl = isAppleDevice ? iosDownloadUrl : androidDownloadUrl;
 var userAgent = navigator.userAgent;
 
+const isAppleDevice = function () {
+  return /iphone|ipad/gi.test(navigator.appVersion)
+}
+
 window.onload = function () {
   var smartBannerButton = document.querySelector(".smartbanner__button");
   smartBannerButton.addEventListener("click", function () {
